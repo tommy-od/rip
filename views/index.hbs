@@ -1,0 +1,55 @@
+<header>
+	<section>
+		<h1>
+			{{title}}
+		</h1>
+
+	</section>
+</header>
+
+<aside class="ripImage">
+	<img src="/images/rip_tombstone.png"/>
+</aside>
+
+<main class="fleft">
+	<p>
+		Enter the message you want to send to the server
+	</p>
+
+	<section>
+		<h4>
+			Here are some pre-configured JSON strings (functions to call) to send to the server
+		</h4>
+		<ul>
+			<li class="presetJson">
+				testMethod()
+			</li>
+			<li class="presetJson">
+				getCcInfo()
+			</li>
+			<li class="presetJson">
+				getUserInfo()
+			</li>
+			<li class="presetJson">
+				getAvatar()
+			</li>
+			<li class="presetJson">
+				getLunch()
+			</li>
+		</ul>
+	</section>
+
+	<section class="inputSection">
+		<input id="clientInput" class="clear" type="text" placeholder="ex: {&quot;method&quot;:&quot;getCcInfo&quot;}'">
+
+		<a id="sendToServerBtn" class="btn" disabled>
+			Send to Server
+		</a>
+		<a id="clearOutputBtn" class="btn">
+			Clear Output
+		</a>
+	</section>
+
+	<article id="serverResponse" class="output"></article>
+
+</main>

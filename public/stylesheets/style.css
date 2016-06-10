@@ -1,0 +1,94 @@
+body {
+    font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 50px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    color: #00B7FF;
+}
+
+input[type="text"] {
+    box-shadow: inset 0px 0px 2px #ccc;
+    border: 1px #aaa solid;
+    color: #000;
+    min-width: 350px;
+    padding: 8px;
+}
+
+a.btn {
+    background-color: #0074D9;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 12px;
+    padding: 12px 4px;
+
+    -webkit-transition: background-color .2s ease-in;
+    transition: background-color .2s ease-in;
+}
+
+a.btn[disabled] {
+    background-color: #999;
+    color: #fff;
+}
+
+a.btn:hover {
+    background-color: #0001d9;
+
+    -webkit-transition: background-color .2s ease-in;
+    transition: background-color .2s ease-in;
+}
+
+.output {
+    background-color: #ccc;
+    border: 1px solid #333;
+    margin: 12px 0;
+    padding: 12px;
+    width: 100%;
+}
+
+.presetJson {
+    background-color: #555;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    padding: 8px;
+    margin: 0 12px 0 0;
+    width: auto;
+
+    -webkit-transition: background-color .2s ease-in;
+    transition: background-color .2s ease-in;
+}
+
+.presetJson:hover {
+    background-color: #111;
+
+    -webkit-transition: background-color .2s ease-in;
+    transition: background-color .2s ease-in;
+}
+
+aside.ripImage {
+    float: left;
+    margin-right: 24px;
+}
+
+.inputSection {
+    margin-top: 80px;
+}
+
+/*Helper*/
+.fleft {
+    float: left;
+}
+.fright {
+    float: right;
+}
+.clear {
+    clear: both;
+}
