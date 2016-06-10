@@ -1,3 +1,6 @@
+NOTE: 6/10/2016 -  Gulp file isn't currenlty working, so all js/css should be edited in the public folder until fixed
+
+
 Benefits of Websockets 
 - Uses TCP
  _ Unlike AJAX or iframe, which use HTTP, websockets uses TCP connection to open and close connections. 
