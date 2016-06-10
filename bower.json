@@ -1,0 +1,23 @@
+{
+  "name": "NodeJS",
+  "version": "0.0.1",
+  "authors": [
+    "Anon"
+  ],
+  "description": "NodeJS Project",
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.5",
+    "bootstrap": "*",
+    "handlebars": "*",
+    "socket.io": "1.4.5"
+  }
+}
